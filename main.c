@@ -7,7 +7,7 @@
 // Estrutura para armazenar informações de atendimento
 struct Atendimento {
     char nome[30];
-    char cpf[15]; // Ajustei o tamanho para comportar CPFs com formatação
+    char cpf[15]; // Tamanho ajustado para comportar cpf com formatação
     int tipoAtendimento;
 };
 
@@ -41,7 +41,7 @@ void cadastrarAtendimento() {
 
 // Função para listar todos os atendimentos registrados
 void listarTodosAtendimentos() {
-    printf("\nListagem de todos os atendimentos registradosfdfd:\n");
+    printf("\nListagem de todos os atendimentos registrados:\n");
     for (int i = 0; i < numAtendimentos; ++i) {
         printf("Nome: %s", atendimentos[i].nome);
         printf("CPF: %s", atendimentos[i].cpf);
