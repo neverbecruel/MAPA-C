@@ -41,7 +41,7 @@ void cadastrarAtendimento() {
 
 // Função para listar todos os atendimentos registrados
 void listarTodosAtendimentos() {
-    printf("\nListagem de todos os atendimentos registrados:\n");
+    printf("\nListagem de todos os atendimentos registradosfdfd:\n");
     for (int i = 0; i < numAtendimentos; ++i) {
         printf("Nome: %s", atendimentos[i].nome);
         printf("CPF: %s", atendimentos[i].cpf);
